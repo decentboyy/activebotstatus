@@ -14,7 +14,7 @@ app = Client(name="st_userbot",
              api_hash=os.getenv("API_HASH"),
              session_string=os.getenv("SESSION_STRING")
 
-bot = Client(name="st_userbot",
+bot = Client(name="st_bot",
              api_id=int(os.getenv("API_ID")),
              api_hash=os.getenv("API_HASH"),
              bot_token=os.getenv("BOT_TOKEN")
